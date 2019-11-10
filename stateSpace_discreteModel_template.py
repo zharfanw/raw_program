@@ -6,7 +6,7 @@ from scipy import signal
     Ym(k) = Cm * Xm(k) + Dm * Um(k)
 
     Snippet Program
-                    [baris], [baris],[baris]
+                    [[baris-1], [baris-2],[baris-3]]
     Am = np.array([[0,1,0],[ 3,0,1 ],[ 0,1,0]])
     Bm = np.array([[1],[1],[3]])
     Cm = np.array([[0,1,0]])
